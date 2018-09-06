@@ -8,5 +8,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class UserController {
     public void cc() {
         System.out.println("aaaaa");
+        System.out.println("bbbbb");
     }
 }
