@@ -1,0 +1,11 @@
+spring:
+      datasource:
+          type: com.alibaba.druid.pool.DruidDataSource
+          driverClassName: com.mysql.jdbc.Driver
+          druid:
+              url: jdbc:mysql://192.168.111.1:3306/crm?allowMultiQueries=true&useUnicode=true&characterEncoding=UTF-8&useSSL=true
+              username: root
+              password: root
+mybatis:
+
+  mapper-locations: classpath:mybatis/*.xml
